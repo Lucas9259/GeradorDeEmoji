@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Aleatório de Emoji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container  -->
+    <div class="container">
+        <!-- container header  -->
+        <div class="container-header">
+            <h1>Gerador de Emoji</h1>
+        </div>
+        
+        <!-- container body  -->
+        <div class="container-body">
+            <span class="emoji">
+                😀               
+            </span>
+        </div>
+
+        <!-- container footer  -->
+        <div class="container-footer">
+            <!-- botão de geração de cor -->
+            <button class="color-generate-btn" id="colorGenerateBtn">
+                <i class="fa-solid fa-location-arrow"></i>
+                Gerar Emoji
+            </button>
+            <!-- Copiar Emoji -->
+            <button class="color-generate-btn copy-emoji-btn" id="copyEmojiBtn">
+                <i class="fa-solid fa-copy"></i>
+                Copiar Emoji
+            </button>
+        </div>
+    </div>
+
+    <canvas id="my-canvas"></canvas>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+
